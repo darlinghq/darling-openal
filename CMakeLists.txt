@@ -9,7 +9,6 @@ include_directories(
 	${CMAKE_CURRENT_SOURCE_DIR}/extra
 	${CMAKE_SOURCE_DIR}/src/frameworks
 )
-include_directories(BEFORE ${CMAKE_SOURCE_DIR}/src/external/libcxx/include)
 
 add_definitions(-DSizeOf32=sizeof)
 
