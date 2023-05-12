@@ -6,7 +6,6 @@ set(DYLIB_CURRENT_VERSION "1.0.0")
 include_directories(
 	${CMAKE_CURRENT_SOURCE_DIR}/Source/OpenAL
 	${CMAKE_CURRENT_SOURCE_DIR}/Source/OpenAL/al
-	${CMAKE_CURRENT_SOURCE_DIR}/extra
 	${CMAKE_SOURCE_DIR}/src/frameworks
 )
 
@@ -22,8 +21,6 @@ set(openal_sources
 	Source/OpenAL/oalOSX.cpp
 	Source/OpenAL/oalRingBuffer.cpp
 	Source/OpenAL/oalSource.cpp
-	extra/CAStreamBasicDescription.cpp
-	extra/CAXException.cpp
 )
 
 add_framework(OpenAL
